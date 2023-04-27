@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteMarco" duration-ms="16652" started-at="2023-04-26T22:50:48 BOT" finished-at="2023-04-26T22:51:05 BOT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.java.Runner.runTest@262b2c86]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test Chrome" duration-ms="16652" started-at="2023-04-26T22:50:48 BOT" finished-at="2023-04-26T22:51:05 BOT">
+      <class name="test.java.Runner.runTest">
+        <test-method status="PASS" signature="setUpScenario(java.lang.String)[pri:0, instance:test.java.Runner.runTest@262b2c86]" name="setUpScenario" is-config="true" duration-ms="9" started-at="2023-04-26T22:50:48 BOT" finished-at="2023-04-26T22:50:48 BOT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpScenario -->
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:test.java.Runner.runTest@262b2c86]" name="setUpClass" is-config="true" duration-ms="298" started-at="2023-04-26T22:50:48 BOT" finished-at="2023-04-26T22:50:48 BOT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@418c020b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.java.Runner.runTest@262b2c86]" name="runScenario" duration-ms="16310" started-at="2023-04-26T22:50:48 BOT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-26T22:51:05 BOT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Realizar la compra de dos productos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["comprar dos articulos de la pagina blazedemo"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3913PU2', ip: '172.26.128.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\richa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2503594d9304555e9ad9a9f8cd6e59e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3913PU2', ip: '172.26.128.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\richa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2503594d9304555e9ad9a9f8cd6e59e
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at test.java.Actions.text.set(text.java:8)
+at test.java.Pages.BlazeDemo.ComprarPage.confirmarCompra(ComprarPage.java:19)
+at test.java.Definitions.CompraBDemoDefinition.complementamosFormularioCarritoCon(CompraBDemoDefinition.java:45)
+at ✽.Complementamos Formulario Carrito con "Marco Antonio Mamani""Bolivia""Santa Cruz""4454644654""05""2025"(file:///D:/Projectos/seleniumAllure/src/test/resources/features/compraBlazeDemo.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.java.Runner.runTest@262b2c86]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2023-04-26T22:51:05 BOT" finished-at="2023-04-26T22:51:05 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:test.java.Runner.runTest@262b2c86]" name="finish" is-config="true" duration-ms="5" started-at="2023-04-26T22:51:05 BOT" finished-at="2023-04-26T22:51:05 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- test.java.Runner.runTest -->
+    </test> <!-- Test Chrome -->
+  </suite> <!-- SuiteMarco -->
+</testng-results>
