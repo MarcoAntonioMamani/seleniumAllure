@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-16T16:59:27 BOT" name="SuiteMarco" finished-at="2022-12-16T16:59:51 BOT" duration-ms="23447">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.java.Runner.runTest@5aa9e4eb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-12-16T16:59:27 BOT" name="Test Chrome" finished-at="2022-12-16T16:59:51 BOT" duration-ms="23447">
+      <class name="test.java.Runner.runTest">
+        <test-method is-config="true" signature="setUpScenario(java.lang.String)[pri:0, instance:test.java.Runner.runTest@5aa9e4eb]" started-at="2022-12-16T16:59:27 BOT" name="setUpScenario" finished-at="2022-12-16T16:59:27 BOT" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpScenario -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:test.java.Runner.runTest@5aa9e4eb]" started-at="2022-12-16T16:59:27 BOT" name="setUpClass" finished-at="2022-12-16T16:59:28 BOT" duration-ms="688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3d5790ea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.java.Runner.runTest@5aa9e4eb]" started-at="2022-12-16T16:59:28 BOT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-16T16:59:51 BOT" duration-ms="22647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Realizar la compra de dos productos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["comprar dos articulos de la pagina blazedemo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.java.Runner.runTest@5aa9e4eb]" started-at="2022-12-16T16:59:51 BOT" name="tearDownClass" finished-at="2022-12-16T16:59:51 BOT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test.java.Runner.runTest@5aa9e4eb]" started-at="2022-12-16T16:59:51 BOT" name="finish" finished-at="2022-12-16T16:59:51 BOT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- test.java.Runner.runTest -->
+    </test> <!-- Test Chrome -->
+  </suite> <!-- SuiteMarco -->
+</testng-results>
